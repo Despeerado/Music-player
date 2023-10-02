@@ -2,6 +2,6 @@ body {
 	background-color: #181818;
 }
 
-p, a, span, h1{
+p, a, span, label, input, h1{
 	color: #fff;
 }
