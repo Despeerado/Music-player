@@ -8,20 +8,21 @@
 	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
-<h1>Wavesurfer JS project</h1>
-<span id="cursor-time">10</span>
-<div>
-	<div id="waveform">
-		<!-- the waveform will be rendered here -->
-	</div>
-	<label for="value-input">
-		Zoom:
-	</label>
-	<input type="range" min="1" max="5" step="1" value="1" id="value-input">
-	<span id="value-zoom">1</span>
-</div>
 
 <body>
+	<h1>Wavesurfer JS project</h1>
+	<span id="cursor-time">0:00</span>
+	<div>
+		<div id="waveform">
+			<!-- the waveform will be rendered here -->
+		</div>
+	</div>
+	<div class="zoom-controls">
+		<button id="zoom-out" class="zoom-btn">Zoom Out</button>
+		<span id="zoom-level"></span>
+		<button id="zoom-in" class="zoom-btn">Zoom In</button>
+	</div>
+
 </body>
 
 </html>

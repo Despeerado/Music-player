@@ -5,3 +5,28 @@ body {
 p, a, span, label, input, h1{
 	color: #fff;
 }
+
+.zoom-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.zoom-btn, #zoom-level {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.zoom-btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+}
+
+.zoom-btn:hover {
+    background-color: #0056b3;
+}
